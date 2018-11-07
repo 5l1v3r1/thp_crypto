@@ -1,24 +1,25 @@
-# README
+# The Hacking Project - Crypto Scrapper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## :mag: The content
+In these exercises, I had to make a site that **scraps** and then **displays the value of a given cryptocurrency**.
 
-* Ruby version
 
-* System dependencies
+**The live version : http://mxrch-crypto.herokuapp.com/**
 
-* Configuration
+**After cloning the repository, make sure to do :**
+```sh
+$ cd thp_crypto
+$ bundle install
+```
 
-* Database creation
+This will install all the dependencies needed for the exercises.
 
-* Database initialization
+## :european_post_office: The Strasbourgeois Crew
+Done in team with @OwwllMan, @zOmegad, @Runefire32, @BrokenPirate and myself (@mxrch). :heart:
 
-* How to run the test suite
+<hr>
 
-* Services (job queues, cache servers, search engines, etc.)
+***It's an exercise from the TheHackingProject bootcamp.***
 
-* Deployment instructions
-
-* ...
+***> www.thehackingproject.org***
