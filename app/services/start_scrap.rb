@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-class CryptoPrices
+class StartScrap
   def prices(page) #Récupère le cours des cryptomonnaies
     @prices = []
     page.css("a.price").each do |price| #Pour chaque prix dans ce sélecteur css

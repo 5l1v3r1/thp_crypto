@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'cryptos#index'
-  post '/', to: 'cryptos#index'
+  root 'home#index'
+  post '/', to: 'home#index'
 end
