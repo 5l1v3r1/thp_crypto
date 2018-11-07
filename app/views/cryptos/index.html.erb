@@ -1,0 +1,12 @@
+<div align="center">
+  <h1>Sélectionnez une cryptomonnaie</h1>
+    <%= form_tag do %>
+        <%= select_tag "crypto_name", options_for_select(@cryptos.keys.sort), class: "form-control"%>
+        <%= submit_tag "Valider" , class: "btn btn-primary"%>
+    <% end %>
+    <% if @crypto_name %>
+    <div class="price">
+        <h4>Le cours de la cryptomonnaie <strong><em><%= @crypto_name %></em></strong> est à <strong><%= @cryptos[@crypto_name] %></strong>.</h4>
+    <div>
+    <% end %>
+</div>
